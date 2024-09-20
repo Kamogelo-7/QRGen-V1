@@ -1,0 +1,39 @@
+:root {
+  --bgTheme-color: black;
+  --TxtColor: hsl(118, 100%, 33%);
+}
+html {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  background-color: var(--bgTheme-color);
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--TxtColor);
+}
+.content > .urlPng {
+  background-color: rgb(255, 255, 255);
+  border: rgb(6, 166, 0) solid;
+  border-radius: 15px;
+  width: 20%;
+  padding: 7px;
+  height: 40vh;
+}
+.content > .urlPng + p {
+  text-transform: capitalize;
+}
+#url,
+.submitBtn {
+    background-color: rgb(31, 31, 31);
+  margin-right: 5px;
+  border-radius: 5px;
+  padding: 5px;
+  border: none;
+  text-align: center;
+  font-weight: bold;
+  color: rgb(117, 117, 117);
+}

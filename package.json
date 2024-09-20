@@ -1,0 +1,17 @@
+{
+  "name": "qrcode",
+  "version": "1.0.0",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Kamogelo Mogaosa",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "inquirer": "^11.0.2",
+    "qr-image": "^3.2.0"
+  }
+}
